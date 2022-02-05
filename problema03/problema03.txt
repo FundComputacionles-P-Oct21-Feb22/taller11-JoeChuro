@@ -1,0 +1,54 @@
+1.  Inicio
+2.    funcion principal()
+3.    opcion, i[1-n]
+4.    Escribir"1. Para calcular el area de un cuadrado"
+5.    Escribir"2. Para calcular el area de un triangulo"
+6.    Escribir"3. Para calcular el area de un rectangulo"
+7.    Lee opcion
+8.    Si(opcion==1)
+9.	obtenerAreaCuadrado
+11.   De lo contrario
+12.   Si(opcion==2)
+13.	obtenerAreaTriangulo
+15.   De lo contrario
+16.   Si(opcion==1)
+17.	obtenerAreaRectangulo
+19.   Fin si
+20. fin funcion principal()
+21. funcion obtenerAreaCuadrado()
+22.   lado1,i[1-n]
+23.   lado2,i[1-n]
+24.   lado3,i[1-n] 
+25.   lado4,i[1-n]
+26.   Escribir"Igrese el lado 1"
+27.   Lee lado1
+28.   Escribir"Igrese el lado 2"
+29.   Lee lado2
+30.   Escribir"Igrese el lado 3"
+31.   Lee lado3
+32.   Escribir"Igrese el lado 4"
+33.   Lee lado4
+34.   mensajeFinal<--lado1*lado2*lado3*lado4
+35.   Escribir mensajeFinal
+36.   fin funcion obtenerAreaCuadrado()
+37. funcion obtenerAreaTriangulo
+38.   base,i[1-n]
+38.   altura,i[1-n]
+39.   Escribir"Ingrese la base"
+40.   Lee base
+41.   Escribi"Ingrese altura"
+42.   Lee altura
+43.   mensajeFinal<--base*altura/2
+44.   Escribir mensajeFinal
+45. fin funcion obtenerAreaTriangulo
+46. funcion obtenerAreaRectangulo
+47.   base,i[1-n]
+48.   altura,i[1-n]
+49.   Escribir"Ingrese la base"
+50.   Lee base
+51.   Escribi"Ingrese altura"
+52.   Lee altura
+53.   mensajeFinal<--base*altura
+54.   Escribir mensajeFinal
+55. fin funcion obtenerAreaRectangulo
+57. FIN

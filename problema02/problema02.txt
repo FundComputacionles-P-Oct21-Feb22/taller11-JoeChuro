@@ -1,0 +1,13 @@
+1.  Inicio
+2.  funcio principal()
+3.    array[5],x[{a-z}{A-Z}{BS}]
+4.    Para(i<--0, i<5, 1)
+5.    	array[i]<--obenerArray
+6.    Fin para
+7.  fin funcion principal()
+8.  funcion obtenerArray()
+9.    a, x[{A-Z},{z-z},{BS}]
+10.   Escribir"Ingrese el valor del arreglo"
+11.   Lee a
+12. fin funcion obtenerArray()
+13. FIN

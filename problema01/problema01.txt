@@ -1,0 +1,39 @@
+1.  Inicio
+2.  funcion principal()
+3.    opcion,i[1-n]
+4.    nombre,x[{A-Z},{a-z},{BS}]
+5.    cedula,x[{0-9}{-}]
+6.    Escribir"Ingrese nombre"
+7.    Lee nombre
+8.    Escribir"Ingrese cedula"
+9.    Lee cedula
+10.   Escribir"Ingrese ingrese 1 para calcular el valor de la luz"
+11.   Escribir"Ingrese ingrese 2 para calcular el predio"
+12.   Lee opcion
+13.   Si(opcion==1)entonces
+14.	calcularValorLuz(nombre;cedula)
+15.   De lo contrario
+16.   Si(opcion==")entonces
+17. 	calcularPredio
+18. Fin si
+19. fin funcion principal
+20. funcion calcularValorLuz(a, x;b, x)
+21.   vkilovatio,d[1-n]
+22.   nkilovatiomes,i[1-n]
+23.   vluz,d[1-n]<--0
+24.   Escribir"Ingrese el valor del kilovatio"
+25.   Lee vkilovatio
+26.   Escribir"Ingrese el numero de kilovatio"
+27.   Lee nkilovatiomes
+28.   vluz<--vkilovatio*nkilovatiomes
+29.   Escribir("Cliente: "+a+"con cedula"+b+"debe cancelar el valor de "+vluz)
+30. fin funcion calcularValorLuz(a, x;b, x)
+31. funcion calcularPredio(a, x;b, x)
+32.   vinmueble,d[1-n]
+33.   vpredio,d[1-n]<--0
+34.   Escribir"Ingrese el valor del inmueble"
+35.   Lee vinmueble
+36.   vpredio<--vinmueble*2/100
+37.   Escribir("Cliente"+a+"con cedula"+b+"tiene un inmueble valorado en "+vinmueble+"y predio"+vpredio)
+38. fin funcion calcularPredio(a, x;b, x)
+39. FIN
